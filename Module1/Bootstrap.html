@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>BOOTSTARP APPLICATION</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="text-primary">Bootstrap Application</h1>
+            <button class="btn btn-success mt-5">Click Me</button>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="bg-primary text-white">
+                        column-1
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="bg-success text-white">
+                        column-2
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="bg-warning text-white">
+                        column-3
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <h1>Two Column Layout</h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    Sidebar
+                </div>
+                <div class="col-md-9">
+                    Main Content
+                </div>
+            </div>
+
+        </div>
+        <h1>Four Column Layout</h1>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-3">
+                    column 1
+                </div>
+                <div class="col-sm-3">
+                    column 2
+                </div>
+                <div class="col-sm-3">
+                    column 3
+                </div>
+                <div class="col-sm-3">
+                    column 4
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="row  justify-content-center align-items-center">
+                <div class="col">hello</div>
+                <div class="col">world</div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <div class="d-flex flex-column flex-md-row bg-dark p-3">
+                <div class="col text-white">Home</div>
+                <div class="col text-white">Contact</div>
+                <div class="col text-white">About</div>
+            </div>
+        </div>
+        <div class="cotainer mt-5">
+            <div class="card p-3">
+                <div class="justify-content-between align-items-center">
+                    <h3>Product Name</h3>
+                    <button class="btn btn-success"> Buy Product</button>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-5">
+            <h1 class="display-1">Bootstrap Typography</h1>
+            <p class="lead">This an exmaple of Bootstrap Typograpghy</p>
+            <p calss="text-muted">This text is muted</p>
+            <p class="fw-bold">This text is bold</p>
+            <p class="fst-italic">Italic test</p>
+            <p class="text-decoration-underline">The underlined text/p>
+
+        </div>
+        <div class="container mt-5" style="max-width:400px;">
+            <h2 class="mb-4">Registarion form</h2>
+                <form>
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" placeholder="Email address:">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" placeholder="Password:">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">I agree for terms and conditions</label>
+                        <input type="checkbox">
+                    </div>
+                    <button type="button" class="btn btn-success w-100">Register</button>
+                </form>
+            </div>
+        </div>
+        <div class="container mt-5" style="max-width:400px;">
+        <h2 class="mb-4 text-center">Login Form</h2>
+        <form>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                <label for="email">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <label for="password">Password</label>
+            </div>
+            <button class="btn btn-success w-100">
+                Login
+            </button>
+        </form>
+
+    </div>
+    <div class="container mt-5">
+        <h2 class="mb-4">Bootstrap Buttons</h2>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-light">Light</button>
+        <hr>
+        <button class="btn btn-outline-primary">
+            Outline Primary
+        </button>
+        <button class="btn btn-outline-success">
+            Outline Success
+        </button>
+        <button class="btn btn-outline-danger">
+            Outline Danger
+        </button>
+    </div>
+    <div class="container">
+        <h2 class="mb-4">Button Group</h2>
+        <div class="btn-group">
+
+            <button class="btn btn-primary">left</button>
+            <buuton class="btn btn-primary">middel</buuton>
+            <buuton class="btn btn-primary">right</buuton>
+
+        </div>
+        <hr>
+
+        <h2 class="mb-4">Toggle Buttons</h2>
+        <input type="checkbox" class="btn-check" id="btncheck1">
+        <label class="btn btn-outline-success" for="btncheck1">
+            Toggle 1
+        </label>
+        <input type="checkbox" class="btn-check" id="btncheck2">
+        <label class="btn btn-outline-danger" for="btncheck2">
+            Toggle 2
+        </label>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <div class="container-fluid">
+
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+            Mywebsite
+        </a>
+        <button class="navbar-toggler" 
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <!-- Links -->
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text">
+                <button class="btn btn-primary" type="button">
+                    Search
+                </button>
+            </form>
+        </div>
+    </div>
+</nav>
+        </div>
+    </div>
+    <div class="container mt-5">
+    <div class="card" style="width:200px;">
+        <img class="card-img-top"
+             src="Event2.jpg"
+             alt="Image">
+        <div class="card-body">
+            <h3 class="card-title">
+                Hello User
+            </h3>
+        </div>
+    </div>
+</div>
+<div class="container mt-5">
+    <h3 class="mb-4">Media</h3>
+    <div class="d-flex align-items-start">
+        <img class="rounded me-3"
+             src="Event2.jpg"
+             alt="Image"
+             width="120">
+        <div>
+            <h1>Hello</h1>
+            <p>
+                This is media object content.
+                Image is aligned to the left side.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="bg-primary text-white m-3 p-2">
+        <h2>Section One</h2>
+        <p>
+            This section uses margin and padding.
+        </p>
+    </div>
+    <div class="bg-success text-white mt-4 py-5">
+        <h2>Section Two</h2>
+        <p>
+            This section has top margin and vertical padding.
+        </p>
+    </div>
+    <div class="container py-5">
+        <h1 class="text-center mb-5">
+            Pricing Plans
+        </h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-4 m-3 text-center">
+                    <h3>Basic</h3>
+                    <h2>$10</h2>
+                    <p>1 GB Storage</p>
+                    <button class="btn btn-primary">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4 m-3 text-center">
+                    <h3>Standard</h3>
+                    <h2>$20</h2>
+                    <p>10 GB Storage</p>
+                    <button class="btn btn-success">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card p-4 m-3 text-center">
+                    <h3>Premium</h3>
+                    <h2>$50</h2>
+                    <p>Unlimited Storage</p>
+                    <button class="btn btn-danger">
+                        Buy Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <h1 class="text-center mb-5">
+            Dashboard
+        </h1>
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="bg-primary text-white p-4 rounded">
+                    <h3>Users</h3>
+                    <h1>120</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bg-success text-white p-4 rounded">
+                    <h3>Sales</h3>
+                    <h1>$500</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="bg-warning text-dark p-4 rounded">
+                    <h3>Orders</h3>
+                    <h1>75</h1>
+                </div>
+            </div>
+            <div class="col-md-3">
+
+                <div class="bg-danger text-white p-4 rounded">
+
+                    <h3>Errors</h3>
+
+                    <h1>5</h1>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-dark bg-gradient text-white p-5 text-center">
+        <h1>
+            Welcome to Bootstrap
+        </h1>
+        <p>
+            This section uses bg-dark, bg-gradient, and white text.
+        </p>
+    </div>
+    <div class="container mt-5">
+
+        <!-- Hidden on all screens -->
+        <div class="d-none bg-danger text-white p-3 mb-3">
+            This section is hidden.
+        </div>
+
+        <!-- Hidden on small screens, visible from md -->
+        <div class="d-none d-md-block bg-success text-white p-3 mb-3">
+            Visible only on medium and larger screens.
+        </div>
+
+        <!-- Flex layout only on lg screens -->
+        <div class="d-lg-flex bg-primary text-white p-3">
+
+            <div class="p-2">
+                Left Content
+            </div>
+
+            <div class="p-2">
+                Right Content
+            </div>
+
+        </div>
+
+    </div>
+    <div>
+
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 bg-dark text-white">
+                <h3>Sidebar</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-9">
+                <h4>Content</h4>
+                <p>Sidebar appears only on tablets and larger screens.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5 text-center">
+        <h2 class="mb-4">
+            Profile Image
+        </h2>
+        <img src="Event2.jpg"
+             alt="Profile"
+             width="200"
+             height="200"
+             class="border border-primary border-3 rounded-circle">
+    </div>
+    <div class="container mt-5">
+        <div class="card shadow-lg p-4 rounded-pill text-center">
+            <h2>
+                Premium Plan
+            </h2>
+            <p>
+                This card uses shadow and rounded pill corners.
+            </p>
+            <button class="btn btn-primary">
+                Buy Now
+            </button>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <!-- Parent -->
+        <div class="position-relative d-inline-block">
+            <!-- Image -->
+            <img src="Event2.jpg"
+                 alt="Image"
+                 width="500"
+                 class="rounded">
+            <span class="position-absolute top-0 start-100 translate-middle badge bg-danger">
+                New
+            </span>
+        </div>
+    </div>
+    <div class="container mt-5">
+    <h5>Button icons</h5>
+
+    <!-- Edit Button -->
+    <button class="btn btn-primary me-3">
+        <i class="bi bi-pencil-fill"></i>
+    </button>
+
+    <!-- Delete Button -->
+    <button class="btn btn-danger me-3">
+        <i class="bi bi-trash-fill"></i>
+    </button>
+
+    <!-- Search Button -->
+    <button class="btn btn-success">
+        <i class="bi bi-search"></i>
+    </button>
+</div>
+<br>
+<br>
+<br>
+<button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#m1">
+  Open Modal
+</button>
+
+<div class="modal fade" id="m1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5>Modal</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        Hello Bootstrap Modal
+      </div>
+
+    </div>
+  </div>
+</div>
+<br>
+<div class="accordion" id="acc1">
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#c1">
+        Section 1
+      </button>
+    </h2>
+    <div id="c1" class="accordion-collapse collapse show" data-bs-parent="#acc1">
+      <div class="accordion-body">
+        Content 1
+      </div>
+    </div>
+  </div>
+  <br>
+
+
+  <div class="accordion-item mt-5">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#c2">
+        Section 2
+      </button>
+    </h2>
+    <div id="c2" class="accordion-collapse collapse" data-bs-parent="#acc1">
+      <div class="accordion-body">
+        Content 2
+      </div>
+    </div>
+  </div>
+
+</div>
+<br>
+<br>
+<br>
+
+<!-- Footer -->
+<footer class="position-fixed bottom-0 w-100 bg-dark text-white text-center p-3">
+
+    Copyright © 2026
+
+    <a class="text-white fs-3 m-3" href="#">
+        <i class="bi bi-twitter"></i>
+    </a>
+
+    <a class="text-white fs-3 m-3" href="#">
+        <i class="bi bi-facebook"></i>
+    </a>
+
+    <a class="text-white fs-3 m-3" href="#">
+        <i class="bi bi-instagram"></i>
+    </a>
+
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+
+    </body>
+</html>
